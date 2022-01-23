@@ -17,12 +17,12 @@ You need **PHP 5.3 or higher** and...that it is all :)
 ## Arguments
 You can use ProgressBario with some arguments:
 
-| # | Name            | Description                                                | Required |
-|---|-----------------|------------------------------------------------------------|----------|
-| 1 | total           | Total number of iterations which will be processed         | true     |
-| 2 | taskName        | Your task custom name                                      | false    |
-| 3 | showTime        | Show remaining time on process and total time after finish | false    |
-| 4 | showMemoryUsage | Show used memory and peak memory usage after finish        | false    |
+| # | Type   |Name            | Description                                                | Required | Default      |
+|---|------  |----------------|------------------------------------------------------------|----------|--------------|
+| 1 | int    |total           | Total number of iterations which will be processed         | true     | None         |
+| 2 | string |taskName        | Your task custom name                                      | false    | Empty string |
+| 3 | bool   |showTime        | Show remaining time on process and total time after finish | false    | false        |
+| 4 | bool   |showMemoryUsage | Show used memory and peak memory usage after finish        | false    | false        |
 
 ## Usage
 1. init your ProgressBario instance;
